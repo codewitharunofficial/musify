@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "owner": "arunonwork3249",
+    "name": "musify",
+    "slug": "musify",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "musify",
+    "icon": "./assets/Musify.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Musify.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Musify.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.codewitharun.musify"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e8be866c-8e71-4a07-8538-81b7279dc97a"
+      }
+    }
+  }
+}

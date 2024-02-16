@@ -1,0 +1,47 @@
+Arguments: 
+  /home/arun/.nvm/versions/node/v18.18.2/bin/node /snap/node/7823/bin/yarn.js install
+
+PATH: 
+  /home/arun/.nvm/versions/node/v18.18.2/bin:/home/arun/Desktop/Musify/node_modules/.bin:/home/arun/Desktop/node_modules/.bin:/home/arun/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/home/arun/.nvm/versions/node/v18.18.2/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/home/arun/.nvm/versions/node/v18.18.2/bin:/home/arun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 2606:4700:90c3:80e2:e40c:522:6810:23:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+
+npm manifest: 
+  {
+    "name": "musify",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~50.0.2",
+      "expo-status-bar": "~1.11.1",
+      "react": "18.2.0",
+      "react-native": "0.73.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
